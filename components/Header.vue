@@ -14,7 +14,7 @@
         <div class="branding docs-branding">
             <div class="container-fluid position-relative py-2">
                 <div class="docs-logo-wrapper">
-	                <div class="site-logo"><a class="navbar-brand" href="/ietm/index"><img class="logo-icon mr-2" src="~/assets/images/coderdocs-logo.svg" alt="logo"><span class="logo-text">Coder<span class="text-alt">Docs</span></span></a></div>    
+	                <div class="site-logo"><NuxtLink class="navbar-brand" to="/"><span class="logo-text">ИЭТР <span class="text-alt">Спрвочник АТС</span></span></NuxtLink></div>    
                 </div><!--//docs-logo-wrapper-->
 	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
 	

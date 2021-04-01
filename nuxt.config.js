@@ -18,7 +18,7 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/css/theme.css',
-    '@/assets/fontawesome/js/all.min.js'
+    '@/assets/fontawesome/js/all.min.js',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -35,9 +35,9 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
+  //    // https://go.nuxtjs.dev/bootstrap
+  //'bootstrap-vue/nuxt',
   modules: [
-    // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa

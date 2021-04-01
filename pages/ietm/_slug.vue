@@ -1,5 +1,8 @@
 <template>
-    <div class="container">
+<div>
+    <nuxt-content :document="doc"/>
+</div>
+    <!-- <div class="container">
         <b-container class="bv-example-row">
             <b-row>
                 <b-col sm="3">
@@ -17,11 +20,12 @@
                 <b-col sm="9"><nuxt-content :document="doc"/></b-col>
             </b-row>
         </b-container>
-    </div>
+    </div> -->
 </template>
 
 <script>
 export default {
+    layout: 'docpage',
     async asyncData({ $content, params }){
         const doc = await $content(`ietm/${params.slug}`).fetch()
         const docs = await $content(`ietm`).only(['slug', 'title']).fetch()
