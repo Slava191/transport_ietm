@@ -6,6 +6,11 @@
                     <span class="theme-icon-holder mr-2"><i class="fas fa-map-signs"></i></span>{{item.title}}
                 </NuxtLink>  
             </li>
+            <li class="nav-item section-title">
+                <NuxtLink :to="`/diagnostic_dialogues`" class="nav-link scrollto active">
+                    <span class="theme-icon-holder mr-2"><i class="fas fa-map-signs"></i></span>Устранение неисправностей
+                </NuxtLink>  
+            </li>
         </ul>
     </nav>
 </template>

@@ -4,8 +4,8 @@
 	    <div class="theme-bg-shapes-right"></div>
 	    <div class="theme-bg-shapes-left"></div>
 	    <div class="container">
-		    <h1 class="page-heading single-col-max mx-auto">Documentation</h1>
-		    <div class="page-intro single-col-max mx-auto">Everything you need to get your software documentation online.</div>
+		    <h1 class="page-heading single-col-max mx-auto">ИЭТР к справочнику АТС</h1>
+		    <div class="page-intro single-col-max mx-auto">Интерактивные электронные технические руководства</div>
 		    <div class="main-search-box pt-3 d-block mx-auto">
                  <form class="search-form w-100">
 		            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
@@ -23,7 +23,7 @@
 						    <div class="card-body">
 							    <h5 class="card-title mb-3">
 								    <span class="theme-icon-holder card-icon-holder mr-2">
-								        <i class="fas fa-map-signs"></i>
+								        <i :class="item.icon"></i>
 							        </span><!--//card-icon-holder-->
 							        <span class="card-title-text">{{item.title}}</span>
 							    </h5>
@@ -31,6 +31,22 @@
 								    {{item.description}}
 							    </div>
 							    <a class="card-link-mask" :href="`/ietm/${item.slug}`"></a>
+						    </div><!--//card-body-->
+					    </div><!--//card-->
+				    </div><!--//col-->
+					<div class="col-12 col-lg-4 py-3">
+					    <div class="card shadow-sm">
+						    <div class="card-body">
+							    <h5 class="card-title mb-3">
+								    <span class="theme-icon-holder card-icon-holder mr-2">
+								        <i class="fas fa-bug"></i>
+							        </span><!--//card-icon-holder-->
+							        <span class="card-title-text">Устранение неполадок</span>
+							    </h5>
+							    <div class="card-text">
+								    Возможные неисправности по работе с приложением и рекомендации по их устранению 
+							    </div>
+							    <a class="card-link-mask" :href="`/diagnostic_dialogues`"></a>
 						    </div><!--//card-body-->
 					    </div><!--//card-->
 				    </div><!--//col-->
@@ -79,7 +95,7 @@
 <script>
 export default {
     async asyncData({ $content}){
-        const docs = await $content(`ietm`).only(['slug', 'title', 'description']).fetch()
+        const docs = await $content(`ietm`).only(['slug', 'title', 'icon', 'description']).fetch()
         return { docs }
     }
 }
