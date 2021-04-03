@@ -4,6 +4,13 @@
 </div>
 </template>
 
+<style>
+    table td, table th{
+        border: solid 1px black;
+        padding: 5px;
+    }
+</style>
+
 <script>
 export default {
     layout: 'docpage',

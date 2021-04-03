@@ -5,3 +5,6 @@ description: 'Инструкция по использованию веб-при
 ---
 
 # Интерфейс приложения
+
+
+<dynamic-image filename="login.png"><dynamic-image>

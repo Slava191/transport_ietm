@@ -1,0 +1,59 @@
+{
+    "title": "Устранения проблем соединения с API",
+    "questions": [
+        {
+            "id": 1,
+            "text": "Включен ли сервер API?",
+            "nextQuestionId": 2,
+            "answers": {
+                "positive": {
+                    "text": "Да"
+                },
+                "negative": {
+                    "text": "Нет",
+                    "action": "Включить сервер"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "text": "Имеется ли у Вас доступ в Интернет?",
+            "nextQuestionId": 3,
+            "answers": {
+                "positive": {
+                    "text": "Да"
+                },
+                "negative": {
+                    "text": "Нет",
+                    "action": "Подключиться к интернету"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "text": "Введены ли конфигурации подключения к API корректно?",
+            "nextQuestionId": 3,
+            "answers": {
+                "positive": {
+                    "text": "Да"
+                },
+                "negative": {
+                    "text": "Нет",
+                    "action": "Поменять конфигурации"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "text": "Удалось решить проблему?",
+            "answers": {
+                "positive": {
+                    "text": "Да"
+                },
+                "negative": {
+                    "text": "Нет",
+                    "action": "Обратитесь к специалисту"
+                }
+            }
+        }]
+    }
