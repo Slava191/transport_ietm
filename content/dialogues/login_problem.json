@@ -1,5 +1,6 @@
 {
     "title": "Устранения проблем авторизации в системе",
+    "icon":"fas fa-sign-in-alt",
     "questions": [
         {
             "id": 1,

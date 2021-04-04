@@ -1,5 +1,6 @@
 {
     "title": "Устранения проблем соединения с API",
+    "icon":"fas fa-server",
     "questions": [
         {
             "id": 1,

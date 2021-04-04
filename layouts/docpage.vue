@@ -12,12 +12,12 @@
             </template>
 
             <template v-slot:search-form>
-                <div class="top-search-box d-none d-lg-flex">
+                <!-- <div class="top-search-box d-none d-lg-flex">
                     <form class="search-form">
                         <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
                         <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
                     </form>
-                </div>
+                </div> -->
             </template>
             
         </Header>
@@ -25,10 +25,10 @@
         <div class="docs-wrapper">
 	    <div id="docs-sidebar" class="docs-sidebar">
 		    <div class="top-search-box d-lg-none p-3">
-                <form class="search-form">
+                <!-- <form class="search-form">
 		            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
 		            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
-		        </form>
+		        </form> -->
             </div>
             <Nav/><!--//docs-nav-->
 	    </div><!--//docs-sidebar-->

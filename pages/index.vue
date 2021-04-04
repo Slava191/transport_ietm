@@ -6,12 +6,12 @@
 	    <div class="container">
 		    <h1 class="page-heading single-col-max mx-auto">ИЭТР к справочнику АТС</h1>
 		    <div class="page-intro single-col-max mx-auto">Интерактивные электронные технические руководства</div>
-		    <div class="main-search-box pt-3 d-block mx-auto">
+		    <!-- <div class="main-search-box pt-3 d-block mx-auto">
                  <form class="search-form w-100">
 		            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
 		            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
 		        </form>
-             </div>
+             </div> -->
 	    </div>
     </div><!--//page-header-->
     <div class="page-content">
@@ -59,13 +59,17 @@
 	    <div class="theme-bg-shapes-right"></div>
 	    <div class="theme-bg-shapes-left"></div>
 	    <div class="container">
-		    <h3 class="mb-2 text-white mb-3">Launch Your Software Project Like A Pro</h3>
-		    <div class="section-intro text-white mb-3 single-col-max mx-auto">Want to launch your software project and start getting traction from your target users? Check out our premium <a class="text-white" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/">Bootstrap 4 startup template CoderPro</a>! It has everything you need to promote your product.</div>
+		    <h3 class="mb-2 text-white mb-3">ООО МИП “ТЕХНОПАРК МАДИ”</h3>
+		    <div class="section-intro text-white mb-3 single-col-max mx-auto">
+				Справочник автотранспортной техники был разработан командой проекта ООО МИП "ТЕХНОПАРК МАДИ" в рамках создания
+				цифровой платформы поддержки принятия решений для обеспечения перевозок крупногабаритных и тяжелых грузов
+			</div>
 		    <div class="pt-3 text-center">
-			    <a class="btn btn-light" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/">Get CoderPro<i class="fas fa-arrow-alt-circle-right ml-2"></i></a>
+			    <a class="btn btn-light" href="http://tehnopark-madi.ru/">Наш сайт<i class="fas fa-arrow-alt-circle-right ml-2"></i></a>
 		    </div>
 	    </div>
-    </section><!--//cta-section-->
+    </section>
+	<!--//cta-section-->
 
             
 	<Footer/>
