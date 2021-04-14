@@ -30,7 +30,7 @@
 							    <div class="card-text">
 								    {{item.description}}
 							    </div>
-							    <a class="card-link-mask" :href="`/ietm/${item.slug}`"></a>
+							    <a class="card-link-mask" :href="`./ietm/${item.slug}`"></a>
 						    </div><!--//card-body-->
 					    </div><!--//card-->
 				    </div><!--//col-->
@@ -46,7 +46,7 @@
 							    <div class="card-text">
 								    Возможные неисправности по работе с приложением и рекомендации по их устранению 
 							    </div>
-							    <a class="card-link-mask" :href="`/diagnostic_dialogues`"></a>
+							    <a class="card-link-mask" :href="`./diagnostic_dialogues`"></a>
 						    </div><!--//card-body-->
 					    </div><!--//card-->
 				    </div><!--//col-->
