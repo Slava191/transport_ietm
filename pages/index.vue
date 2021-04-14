@@ -4,7 +4,7 @@
 	    <div class="theme-bg-shapes-right"></div>
 	    <div class="theme-bg-shapes-left"></div>
 	    <div class="container">
-		    <h1 class="page-heading single-col-max mx-auto">ИЭТР к справочнику АТС</h1>
+		    <h1 class="page-heading single-col-max mx-auto">ИЭТР к справочнику автотранспортных средств (АТС)</h1>
 		    <div class="page-intro single-col-max mx-auto">Интерактивные электронные технические руководства</div>
 		    <!-- <div class="main-search-box pt-3 d-block mx-auto">
                  <form class="search-form w-100">
