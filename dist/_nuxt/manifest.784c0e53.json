@@ -1,7 +1,7 @@
 {
   "name": "transport_ietm",
   "short_name": "transport_ietm",
-  "description": "## Build Setup",
+  "description": "## Работает на GitHub Pages",
   "icons": [
     {
       "src": "/transport_ietm/_nuxt/icons/icon_64x64.5f6a36.png",
